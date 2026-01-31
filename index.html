@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Pribadi</title>
+</head>
+<body>
+
+    <h1>Profil Pribadi</h1>
+    <p>Halaman profil sederhana menggunakan HTML</p>
+
+    <hr>
+
+    <!-- Navigasi -->
+    <p>
+        <a href="#tentang">Tentang Saya</a> |
+        <a href="#portofolio">Portofolio</a> |
+        <a href="#keahlian">Keahlian</a> |
+        <a href="#kontak">Kontak</a>
+    </p>
+
+    <hr>
+
+    <!-- Tentang Saya -->
+    <h2 id="tentang">Tentang Saya</h2>
+    <img src="nathan2.jpg" width="150" alt="Foto Profil">
+
+    <p>
+        Halo! Nama saya <b>Muhammad Nathan Algibran</b>.  
+        Saya adalah mahasiswa <i>Teknik Informatika</i> yang tertarik
+        pada pengembangan website dan teknologi digital.
+    </p>
+
+    <hr>
+
+    <!-- Portofolio -->
+    <h2 id="portofolio">Portofolio</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>No</th>
+            <th>Nama Proyek</th>
+            <th>Deskripsi</th>
+            <th>Foto Project</th>
+            <th>Tahun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Website Profil Pribadi</td>
+            <td>
+                Website yang menggunakan framework React untuk menampilkan
+                informasi diri dan kontak.
+            </td>
+            <td>
+                <img src="project1.png" width="120" alt="Project Profil">
+            </td>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sisehat</td>
+            <td>
+                Website rumah sakit yang dibuat oleh tim untuk lomba
+                menggunakan framework Laravel.
+            </td>
+            <td>
+                <img src="project2.png" width="120" alt="Project Sisehat">
+            </td>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Task Management System</td>
+            <td>
+                Website untuk mengatur dan mengingat tugas
+                menggunakan framework React.
+            </td>
+            <td>
+                <img src="project3.jpg" width="120" alt="Project Task Management">
+            </td>
+            <td>2025</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Keahlian -->
+    <h2 id="keahlian">Keahlian</h2>
+
+    <h3>Frontend Development</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Next.js</li>
+        <li>JavaScript</li>
+        <li>Laravel</li>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Tailwind CSS</li>
+    </ul>
+
+    <h3>Backend Development</h3>
+    <ol>
+        <li>Node.js</li>
+        <li>PostgreSQL</li>
+        <li>REST API</li>
+    </ol>
+
+    <hr>
+
+    <!-- Kontak -->
+    <h2 id="kontak">Kontak Saya</h2>
+
+    <form>
+        <p>
+            <label>Nama:</label><br>
+            <input type="text" placeholder="Masukkan nama">
+        </p>
+
+        <p>
+            <label>Email:</label><br>
+            <input type="email" placeholder="Masukkan email">
+        </p>
+
+        <p>
+            <label>Pesan:</label><br>
+            <textarea rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Kirim</button>
+        </p>
+    </form>
+
+    <hr>
+
+    <!-- Footer -->
+    <p>
+        © 2026 Nathan Algibran <br>
+        Kunjungi:
+        <a href="https://github.com/Nathan-Algibran" target="_blank">GitHub</a> |
+        <a href="https://www.instagram.com/nathanalgb/" target="_blank">Instagram</a>
+    </p>
+
+</body>
+</html>
